@@ -1,0 +1,27 @@
+{
+  "name": "delayed-request",
+  "version": "0.0.1",
+  "description": "Simple module wrapping the \"request\" module to add some random delay between requests.",
+  "main": "lib/Request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leeroybrun/node-delayed-request.git"
+  },
+  "keywords": [
+    "request",
+    "delay",
+    "delayed",
+    "http"
+  ],
+  "dependencies": {
+    "request": "*"
+  },
+  "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeroybrun/node-delayed-request/issues"
+  }
+}
