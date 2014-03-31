@@ -9,12 +9,22 @@ Simple module wrapping the "request" module to add some random delay between req
 var Request = require('delayed-request');
 
 var request = new Request({
-	//debug: true, // Optional, output delay to console
+	debug: true, // Optional, output delay to console
 	delayMin: 1000,
 	delayMax: 3000
 });
 
-Request.run(options, callback); // Same options as the "request" module
+console.log('Run first request');
+
+request.run('http://www.google.com', function(err, response) {
+	console.log('First request response received');
+});
+
+console.log('Run second request');
+
+request.run('http://www.google.com', function(err, response) {
+	console.log('Second request response received');
+});
 ```
 
 Licence

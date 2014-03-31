@@ -6,12 +6,14 @@ var request = new Request({
 	delayMax: 3000
 });
 
-request.run('http://www.google.com', function(err, response) {
-	console.error(err);
-	console.log(response);
-});
+console.log('Run first request');
 
 request.run('http://www.google.com', function(err, response) {
-	console.error(err);
-	console.log(response);
+	console.log('First request response received');
+});
+
+console.log('Run second request');
+
+request.run('http://www.google.com', function(err, response) {
+	console.log('Second request response received');
 });
