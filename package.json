@@ -17,7 +17,7 @@
     "http"
   ],
   "dependencies": {
-    "request": "*"
+    "request": "~2.34.0"
   },
   "author": "Leeroy Brun <leeroy.brun@gmail.com>",
   "license": "MIT",
