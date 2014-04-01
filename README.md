@@ -27,6 +27,10 @@ request.run('http://www.google.com', function(err, response) {
 });
 ```
 
+## TODO
+
+- Add a stack for requests to run, then launch them in order with delay between them
+
 Licence
 ======================
 (The MIT License)
