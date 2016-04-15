@@ -6,7 +6,7 @@ Simple module wrapping the "request" module to add some random delay between req
 ## Example
 
 ```javascript
-var Request = require('delayed-request');
+var Request = require('delayed-request')(require('request'));
 
 var request = new Request({
 	debug: true, // Optional, output delay to console

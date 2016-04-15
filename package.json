@@ -16,12 +16,13 @@
     "delayed",
     "http"
   ],
-  "dependencies": {
-    "request": "~2.34.0"
-  },
+  "dependencies": {},
   "author": "Leeroy Brun <leeroy.brun@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/leeroybrun/node-delayed-request/issues"
+  },
+  "devDependencies": {
+    "request": "^2.64.0"
   }
 }
